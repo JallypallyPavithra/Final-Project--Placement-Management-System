@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font=awesome.min.css">
+<style>
+
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+body
+{
+margin:0;
+background-image: url(https://d25ecq9zgd9hts.cloudfront.net/img/2018/01/graduation.jpg);
+ background-repeat: no-repeat;
+  background-size: 1520px 730px;
+ 
+  
+}
+.MainPage {
+
+	background-color:black;
+	text-align:left;
+	padding:10px;
+	
+}
+.MainPage ul {
+display: inline-flex;
+list-style:none;
+color:lightsalmon;
+}
+.MainPage ul li
+{
+width: 120px;
+padding:5px;
+font-size:large;
+}
+.MainPage ul li a {
+text-decoration:none;
+color:white;
+}
+.MainPage ul li:hover
+{
+	background-color: burlywood;
+	border-radius: 3px;
+}
+
+
+.menu1{
+display:none;
+}
+.MainPage ul li:hover .menu1 {
+	display:block;
+	position: absolute;
+	background-color: deepskyblue;
+	margin-top: 15px;
+	margin-left:15px;
+}
+.MainPage ul li:hover .menu1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.MainPage ul li:hover .menu1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom: 1px solid black;
+	border-radius:0;
+	text-align:left;
+}
+.MainPage ul li:hover .menu1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+p
+{
+text-align:left;
+font-style:sans-serif;
+font-size:xx-large;
+padding:220px;
+font-weight:bolder;
+}
+</style>
+</head>
+<body>
+
+<div class="MainPage">
+<ul >
+  <li class="active"><a href="">Home</a>
+  <div class="menu1">
+  <ul>
+  <li class="active"> <a href="http://localhost:8080/adminlogin/">AdminLogin</a></li>
+  
+  <li> <a href="http://localhost:8080/studentlogin/">StudentLogin</a></li>
+  
+  
+  </ul>
+  
+  
+  </div>
+  
+  
+  </li>
+  <li><a href="http://localhost:8080/AboutUs.html/">About Us</a></li>
+  <li><a href="http://localhost:8080/ContactUs.html/">Contact Us</a></li>
+  
+</ul>
+
+</div>
+
+<p>
+Placement Management System
+</p>
+</body>
+</html>

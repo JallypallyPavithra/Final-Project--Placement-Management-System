@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color:lightsteelblue;
+}
+label{
+   font-size: 15px;
+}
+input[type=text],textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   text-align:center;
+}
+input[type=submit] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+input[type=submit]:hover {
+   background-color: #45a049;
+}
+form {
+   border-radius: 5px;
+   background-color:white;
+   padding: 20px;
+}
+h1
+{
+ margin:1px;
+}
+h2
+{
+margin:1px;
+
+}
+
+</style>
+</head>
+<body>
+<h1 style="text-align:center">Contact Us</h1>
+<h2 style="text-align:left"><a href="http://localhost:8080/homepage.html/">Home</a></h2>
+<form style=background-color:lightblue;>
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Enter your firstname">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Enter your surname">
+<label for="email">Email Id</label>
+<input type="text" id="email" name="Email" placeholder="Enter your emailId">
+<label for="contact">Contact</label>
+<textarea id="contact" name="contact" placeholder="Write your message here"
+style="height:200px"></textarea>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
